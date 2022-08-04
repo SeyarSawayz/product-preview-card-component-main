@@ -1,0 +1,39 @@
+
+
+@media screen and (max-width:375px) {
+
+    .main{
+        flex-direction: column;
+    }
+
+    .perfume img{
+
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        object-fit: cover;
+        height: 259px;
+        width: 337px;
+
+    }
+    
+
+    .content{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        width: 278px;
+    }
+
+    .btn{
+        width: 275px;
+    }
+
+    footer{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
